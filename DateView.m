@@ -14,7 +14,7 @@
 #import "UIColor+CL.h"
 #import "NSDictionary+CL.h"
 #import "UIImage+CL.h"
-//#import "NTMonthCalendar.h"
+
 
 #define WEEKLY_VIEW_COUNT 7
 #define MONTH_VIEW_COUNT 42
@@ -290,9 +290,7 @@ static float const CLCalendarSelectedDatePrintFontSizeDefault = 13.f;
     NSInteger unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit | NSWeekdayCalendarUnit | NSHourCalendarUnit;
     compontents = [calendar components:unitFlags fromDate:date];
     
-//   NTMonthCalendar *lunarCalendar = [[[NSCalendar currentCalendar] dateFromComponents:compontents] chineseCalendarDate];
-//    NSLog(@"%@",lunarCalendar.DayLunar);
-//    view.lunarDateString = lunarCalendar.DayLunar;
+
     view.date = date;
     
     if (!self.layoutWeekOrMonth) {
