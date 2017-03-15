@@ -7,7 +7,7 @@
 //
 
 #import "NSDate+CL.h"
-#import "NTMonthCalendar.h"
+//#import "NTMonthCalendar.h"
 
 
 
@@ -94,13 +94,13 @@
  *@Params:nil
  *@Return:NSDate对应的中国日历（农历）的LunarCalendar
  ****************************************************/
-- (NTMonthCalendar *)chineseCalendarDate
-{
-    NTMonthCalendar *lunarCalendar = [[NTMonthCalendar alloc] init];
-    [lunarCalendar loadWithDate:self];
-    [lunarCalendar InitializeValue];
-    return lunarCalendar;
-}
+//- (NTMonthCalendar *)chineseCalendarDate
+//{
+//    NTMonthCalendar *lunarCalendar = [[NTMonthCalendar alloc] init];
+//    [lunarCalendar loadWithDate:self];
+//    [lunarCalendar InitializeValue];
+//    return lunarCalendar;
+//}
 
 
 
